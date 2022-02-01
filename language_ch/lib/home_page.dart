@@ -22,14 +22,14 @@ import 'package:language_ch/main.dart';
 
 
 class HomePage extends StatelessWidget {
-
+  //
   //  List<Language> languageList=[
   //   Language(id: 1, flag: "US", name: "English", languageCode: "en",locale: Locale('en','US')),
   //   Language(id: 2, flag: "BD", name: "বাংলা", languageCode: "bn",locale: Locale('kn','IN')),
   //   Language(id: 3, flag: "SA", name: "اَلْعَرَبِيَّةُ‎", languageCode: "ar",locale: Locale('hi','IN')),
   //   Language(id: 4, flag: "IN", name: "हिंदी", languageCode: "hi",locale: Locale('hi','IN')),
   // ];
-  //
+
   final List _locale =[
     {'name':'ENGLISH','locale': Locale('en','US')},
     {'name':'ಕನ್ನಡ','locale': Locale('kn','IN')},
@@ -41,6 +41,8 @@ class HomePage extends StatelessWidget {
   //   Get.back();
   //   Get.updateLocale(locale);
   // }
+
+
 
   buildLanguageDialog(BuildContext context){
     showDialog(context: context,

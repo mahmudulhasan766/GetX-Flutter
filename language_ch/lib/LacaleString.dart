@@ -29,10 +29,10 @@ class LocaleString extends Translations{
       'changelang':'ಭಾಷೆ ಬದಲಿಸಿ'
     },
     'ar_SA':{
-      'hello': 'ಹಲೋ ವರ್ಲ್ಡ್',
-      'message':'ಪ್ರೋಟೋ ಕೋಡರ್ ಪಾಯಿಂಟ್‌ಗೆ ಸುಸ್ವಾಗತ',
-      'title':'ಬೀಸು ಭಾಷೆ - ಸ್ಥಳೀಕರಣ',
-      'subscribe':'ವಂತಿಗೆ ಕೊಡು',
+      'hello': 'مرحبًا بك في نقطة',
+      'message':'مرحبًا بك في نقطة بروتو كودر',
+      'title':'مرحبًا بك في نقطة',
+      'subscribe':'مرحبًا بك في',
       'changelang':'إرسال'
     }
   };
